@@ -1,8 +1,8 @@
 version: 1
+secrets:
+  SECRET_KEY: ${{ env.SECRET_KEY }}
+  PORT: ${{ env.PORT }}
 services:
   web:
-    env:
-      SECRET_KEY: secret123
-      PORT: 3000
     buildScript: npm install
     startScript: npm start

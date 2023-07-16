@@ -4,17 +4,5 @@ node_modules/
 # Environment variables
 .env
 
-# Logs and generated files
-logs/
-*.log
-*.json
 
-# IDE and editor specific files
-.vscode/
-.idea/
-*.swp
-*.swo
 
-# Build output
-dist/
-build/

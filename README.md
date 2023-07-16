@@ -2,7 +2,7 @@
 
 This is a simple Express.js API that calculates intersections between a line string and scattered lines.
 
-## Installation
+## Installation and running the server
 
 1. Clone the repository:
 
@@ -22,6 +22,8 @@ PORT=3000
 To start the application, run the following command:
 npm start
 
+
+## Running in POSTMAN
 
 Calculate Intersections
 Endpoint: `POST /api/intersections`

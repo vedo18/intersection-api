@@ -11,11 +11,6 @@ git clone https://github.com/vedo18/intersection-api.git
 cd intersection-api
 npm install
 
-2. Set up environment variables:
-
-SECRET_KEY=secret123
-PORT=3000
-
 
 To start the application, run the following command:
 npm start

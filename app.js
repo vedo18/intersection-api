@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 
 app.use(express.json({ limit: '10mb' }));
 
-const secretKey = process.env.SECRET_KEY; // Replace with a secret key of your choice
+const secretKey = 'secret123'; // Replace with a secret key of your choice
 
 const payload = {
   userId: '123',
@@ -25,7 +25,7 @@ console.log('Token:', token);
 // Use the intersections route
 app.use('/', intersectionsRoute);
 
-const port = process.env.PORT; // Use any port number you prefer
+const port = 3000; // Use any port number you prefer
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });

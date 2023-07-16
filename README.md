@@ -4,10 +4,8 @@ This is a simple Express.js API that calculates intersections between a line str
 
 ## Installation and running the server
 
-1. Clone the repository:
-
 ```bash
-git clone <repository-url>
+git clone https://github.com/vedo18/intersection-api.git
 
 
 cd intersection-api

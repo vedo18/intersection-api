@@ -1,5 +1,8 @@
+version: 1
 services:
   web:
-    commands:
-      - npm install
-      - npm start
+    env:
+      SECRET_KEY: secret123
+      PORT: 3000
+    buildScript: npm install
+    startScript: npm start
